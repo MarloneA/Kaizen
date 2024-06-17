@@ -17,50 +17,34 @@ type FeatureText = {
 const featureText: FeatureText[] = [
   {
     icon: <Coins className="h-6 w-6" />,
-    title: "Application Dashboard",
+    title: "Comments and Feedback",
     href: "/",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "comment directly on the web elements with a discrepancy to get live feedback on the app.",
     cta: "Learn More",
   },
   {
     icon: <Coins className="h-6 w-6" />,
-    title: "Subcription and Payments",
+    title: "Screenshots and Videos",
     href: "/",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Record and capture snippets of your app to provide more context to the underlying problem.",
     cta: "Learn More",
   },
   {
     icon: <Coins className="h-6 w-6" />,
-    title: "Custom Entities",
+    title: "Issue tracking",
     href: "/",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "instantly generate tickets on popular project management software like github and attlassian.",
     cta: "Learn More",
   },
   {
     icon: <Coins className="h-6 w-6" />,
-    title: "Auth, Accounts and Users",
+    title: "Custom workflows",
     href: "/",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    cta: "Learn More",
-  },
-  {
-    icon: <Coins className="h-6 w-6" />,
-    title: "Roles and Permissions",
-    href: "/",
-    description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    cta: "Learn More",
-  },
-  {
-    icon: <Coins className="h-6 w-6" />,
-    title: "Metrics",
-    href: "/",
-    description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Build custom workflows for different teams based on a teams unique working style and include integrations accross project mangement software.",
     cta: "Learn More",
   },
 ];
@@ -68,10 +52,10 @@ const featureText: FeatureText[] = [
 const singleFeatureText: FeatureText[] = [
   {
     icon: <Coins className="h-6 w-6" />,
-    title: "Feature Flags",
+    title: "Integrations",
     href: "/",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Link different apps that you use in your organization such as slack, github, bitbucket and get instant feedback.",
     cta: "Learn More",
   },
 ];
@@ -93,7 +77,7 @@ const Feature = () => {
               ({ icon, title, description, href, cta }, index) => (
                 <Link
                   href={`${href}`}
-                  className="flex flex-col justify-between gap-6 rounded-lg border p-6 transition-all hover:-mt-2 hover:mb-2"
+                  className="flex flex-col justify-between gap-6 rounded-lg p-6 transition-all hover:-mt-2 hover:mb-2 bg-[#00000052]"
                   key={index}
                 >
                   <div className="grid gap-4">
@@ -115,7 +99,7 @@ const Feature = () => {
               ({ icon, title, description, href, cta }, index) => (
                 <Link
                   href={`${href}`}
-                  className="flex flex-col bg-muted/25 justify-between gap-6 rounded-lg border p-6 transition-all hover:-mt-2 hover:mb-2"
+                  className="flex flex-col bg-muted/25 justify-between gap-6 rounded-lg p-6 transition-all hover:-mt-2 hover:mb-2"
                   key={index}
                 >
                   <div className="grid gap-4">

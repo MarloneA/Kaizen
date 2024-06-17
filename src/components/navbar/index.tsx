@@ -8,12 +8,12 @@ function NavBar() {
     <div className=" w-3/4 m-auto flex gap-5 justify-between items-center px-7 pt-6 p-2 font-bold leading-[154.5%] max-md:flex-wrap max-md:px-5">
       <div className="flex gap-1.5 justify-center self-stretch my-auto text-2xl tracking-tighter">
         <H2 className="font-black text-2xl">
-          SAAS <span className="text-red-700">KIT</span>
+          KAI<span className="text-red-700">ZEN</span>
         </H2>
       </div>
       <List className="gap-5 list-none justify-between self-stretch my-auto text-md leading-5 text-neutral-700 max-md:flex-wrap max-md:max-w-full font-normal hidden md:flex">
         <ListItem>
-          <Link href="/#pricing"> Pricing</Link>
+          <Link href="/#pricing">Pricing</Link>
         </ListItem>
         <ListItem>
           <Link href="/#about"> Features</Link>

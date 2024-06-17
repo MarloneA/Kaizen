@@ -11,23 +11,22 @@ const Hero = () => {
       <Container className="flex flex-col gap-8">
         <Badge className="not-prose w-fit" variant="outline">
           <Link className="group flex items-center gap-1" href="/#pricing">
-            Lorem ipsum dolor sit amet
+            view docs
             <ArrowRight className="w-4 transition-all group-hover:-rotate-45" />
           </Link>
         </Badge>
-        <h1 className="!mb-0">
-          Building a saas should be about the product not the other stuff.
-          that's where we come in?
-        </h1>
+        <h1 className="!mb-0">You deserve better feedback</h1>
         <h3 className="rounded-md border bg-muted/50 p-4 text-muted-foreground">
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Don't leave your product Quality to chance, try kaizen today and see
+          how well it fits into your organizations workflow. Your entire
+          organization can turn into bug reporters in a matter of minutes and
+          you will be able to close your feedback loop in a matter of minutes
+          not days
         </h3>
 
         <div className="flex gap-4">
           <Button>Get Started for free</Button>
-          <Button variant="outline">Checkout the code</Button>
+          <Button variant="outline">Checkout the demo</Button>
         </div>
       </Container>
     </Section>

@@ -17,12 +17,12 @@ export default function Footer() {
         <Container className="grid md:grid-cols-[1.5fr_0.5fr_0.5fr] gap-12">
           <div className="flex flex-col gap-6 not-prose">
             <Link href="/">
-              <H2>saas kit</H2>
+              <H2>KAISEN</H2>
             </Link>
             <p>
               <Balancer>
-                Saas kit is a collection of Next.js, React, Typescript
-                components for bootstraping your next saas application.
+                Bug reporting and automation tools built for individuals and
+                organizations.
               </Balancer>
             </p>
           </div>
@@ -52,7 +52,7 @@ export default function Footer() {
             </Button>
           </div>
           <p className="text-muted-foreground">
-            © <a href="#">Saas kit</a>. All rights reserved. 2024.
+            © <a href="#">KAISEN</a>. All rights reserved. 2024.
           </p>
         </Container>
       </Section>

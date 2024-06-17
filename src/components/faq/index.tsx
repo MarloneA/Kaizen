@@ -17,25 +17,23 @@ type FAQItem = {
 
 const content: FAQItem[] = [
   {
-    question: "Lorem ipsum dolor sit amet?",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    link: "https://google.com",
+    question: "Can Kaisen be used accross different teams?",
+    answer: "Yes Kaisen supports multiple workflows accross different teams",
   },
   {
-    question: "Ut enim ad minim veniam?",
-    answer:
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    question: "Can Kaisen be used as a monitoring tool?",
+    answer: "No, right now Kaisen is only used for bug reporting.",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit?",
+    question: "Do i need to install Kaisen in my computer?",
     answer:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Kaisen works with a browser extension and can only be used on the page permitted by the user.",
   },
   {
-    question: "Excepteur sint occaecat cupidatat non proident?",
+    question: "How many javasscript frameworks does kaisen support?",
     answer:
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "We are constantly releasing updates to the code please refer to the changelog to see if your framework of choice is supported.",
+    link: "#",
   },
 ];
 
@@ -65,7 +63,7 @@ const FAQ = () => {
                       href={item.link}
                       className="opacity-60 w-full mt-2 hover:opacity-100 transition-all flex items-center"
                     >
-                      Learn more <ArrowUpRight className="ml-1" size="16" />
+                      View Changelog <ArrowUpRight className="ml-1" size="16" />
                     </a>
                   )}
                 </AccordionContent>
